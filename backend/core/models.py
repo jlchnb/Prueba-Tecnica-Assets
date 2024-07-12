@@ -17,11 +17,11 @@ class Gestor(models.Model):
 
 class Pago(models.Model):
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
-    rut = models.CharField(max_length=20)
     gestor = models.ForeignKey(Gestor, on_delete=models.CASCADE)
+    rut = models.CharField(max_length=20)
     monto = models.DecimalField(max_digits=10, decimal_places=2)
     fecha_pago = models.DateField()
-    abonos = models.DecimalField(max_digits=10, decimal_places=2)
+    abonos = models.IntegerField()
 
 # Se usa ForeignKey para la relacion 
 

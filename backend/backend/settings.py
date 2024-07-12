@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'assets_backend_test',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'local_db.sqlite3',
         'USER': 'assets_backend_test_user',
         'PASSWORD': 'vQfLjm3NYbeRHWXZaSK2Xu440QHTzI2r',
         'HOST': 'dpg-cps5jml6l47c73e0c3hg-a.oregon-postgres.render.com',
