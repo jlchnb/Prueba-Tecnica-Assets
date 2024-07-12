@@ -1,0 +1,35 @@
+.pagos-container {
+    margin-top: 20px;
+}
+
+.pagos-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pagos-header, .pagos-row {
+    display: flex;
+    width: 100%;
+}
+
+.pagos-cell {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.pagos-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.pagos-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pagos-row:hover {
+    background-color: #ddd;
+}

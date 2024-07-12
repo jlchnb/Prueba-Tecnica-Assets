@@ -1,0 +1,23 @@
+.cliente-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cliente-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.cliente-card h3 {
+    text-align: center;
+}
+
+.cliente-card h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
