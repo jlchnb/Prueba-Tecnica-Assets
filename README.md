@@ -21,11 +21,11 @@ MONTO: Monto de la pago.
 F_PAGO: Fecha de pago.
 ABONOS: Total de abonos realizados.
 2. Credenciales
-Host: dpg-cps5jml6l47c73e0c3hg-a.oregon-postgres.render.com
+Host: --------------------------
 Database: assets_backend_test
 Username: assets_backend_test_user
 Prueba Técnica Desarrollador Assets 2
-Password: vQfLjm3NYbeRHWXZaSK2Xu440QHTzI2r
+Password: --------------------
 Parte 2: Desarrollo Backend
 1. Configuración Inicial
 Crea un proyecto utilizando Django (idealmente) u otro framework
