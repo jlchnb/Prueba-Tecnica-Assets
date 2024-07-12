@@ -1,4 +1,20 @@
 # Prueba-Tecnica-Assets
+Prueba tecnica realizada por Julio Cohen Banda
+
+Instrucciones para ejecucion del codigo:
+1.- Clonar el repositorio git clone https://github.com/jlchnb/Prueba-Tecnica-Assets.git
+2.- Instalar dependencias para el backend:
+    *cd backend*
+    *pip install -r requirements.txt*
+    una vez hecho eso, levantar el entorno virtual con el comando
+    *.\env\Scripts\activate*
+    luego levantar el servidor
+    *python manage.py runserver*
+3.- Instalar dependencias para el front end:
+    *cd frontend*
+    *npm install*
+    *npm start*
+
 Prueba Técnica Desarrollador Assets 1
 Prueba Técnica Desarrollador
 Assets
