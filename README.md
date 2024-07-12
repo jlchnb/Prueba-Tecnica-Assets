@@ -4,7 +4,7 @@ Prueba tecnica realizada por Julio Cohen Banda
 Instrucciones para ejecucion del codigo:<br>
 1.- Clonar el repositorio git clone https://github.com/jlchnb/Prueba-Tecnica-Assets.git<br>
 2.- Instalar dependencias para el backend:<br>
-    <center>*cd backend*</center><br>
+    *cd backend*<br>
     *pip install -r requirements.txt*<br>
     una vez hecho eso, levantar el entorno virtual con el comando<br>
     *.\env\Scripts\activate*<br>
